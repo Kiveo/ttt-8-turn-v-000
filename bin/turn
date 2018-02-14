@@ -6,4 +6,7 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
 
-turn(board)
+8.times do
+  turn(board)
+  puts "This is an iteration marker"
+end
